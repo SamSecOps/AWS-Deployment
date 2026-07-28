@@ -264,121 +264,121 @@ Create a `screenshots` folder in the repository and save each image using the fi
 
 ### 1. Root Account Multi-Factor Authentication
 
-![Root Account MFA Assigned](screenshots/01-root-account-mfa.png)
+![Root Account MFA Assigned](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-24%20131210.png)
 
 <!-- Replace screenshots/01-root-account-mfa.png with the screenshot showing MFA assigned on the root Security Credentials page. -->
 
 ### 2. Administrative IAM User
 
-![Administrative IAM User](screenshots/02-admin-iam-user.png)
+![Administrative IAM User](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-24%20110554.png)
 
 <!-- Show the dedicated administrative IAM user and its attached lab permissions. Redact account identifiers and sign-in details. -->
 
 ### 3. IAM Groups
 
-![IAM Groups](screenshots/03-iam-groups.png)
+![IAM Groups](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20173638.png)
 
 <!-- Show the Marketing, Sales, Information Technology, and Cybersecurity groups. -->
 
 ### 4. IAM Users and Group Membership
 
-![IAM Users](screenshots/04-iam-users.png)
+![IAM Users](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20175524.png)
 
 <!-- Show all eight departmental users and their group memberships. -->
 
 ### 5. Amazon S3 Buckets
 
-![Amazon S3 Buckets](screenshots/05-s3-buckets.png)
+![Amazon S3 Buckets](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-24%20142838.png)
 
 <!-- Show the departmental Amazon S3 buckets. Redact account-specific information where appropriate. -->
 
 ### 6. Marketing Amazon S3 Policy
 
-![Marketing S3 Policy](screenshots/06-marketing-s3-policy.png)
+![Marketing S3 Policy](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20190955.png)
 
 <!-- Show the Marketing group policy scoped to its assigned bucket. -->
 
 ### 7. Information Technology and Sales Amazon S3 Policies
 
-![IT and Sales S3 Policies](screenshots/07-it-sales-s3-policies.png)
+![IT and Sales S3 Policies](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-24%20165802.png)
 
 <!-- Show the Information Technology and Sales group policies scoped to their assigned buckets. -->
 
 ### 8. Cybersecurity Full Amazon S3 Lab Policy
 
-![Cybersecurity S3 Policy](screenshots/08-cybersecurity-s3-policy.png)
+![Cybersecurity S3 Policy](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20193537.png)
 
 <!-- Show the Cybersecurity group's broader Amazon S3 lab policy. -->
 
 ### 9. Amazon EC2 Instances
 
-![Amazon EC2 Instances](screenshots/09-ec2-instances.png)
+![Amazon EC2 Instances](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20201506.png)
 
 <!-- Show the departmental Amazon EC2 instances and their running states. Redact public Internet Protocol addresses. -->
 
 ### 10. Amazon EC2 Group Policies
 
-![EC2 Group Policies](screenshots/10-ec2-group-policies.png)
+![EC2 Group Policies](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-24%20210050.png)
 
 <!-- Show the resource-scoped Amazon EC2 policies for the departmental groups. -->
 
 ### 11. AWS CloudTrail Trail
 
-![CloudTrail Trail](screenshots/11-cloudtrail-trail.png)
+![CloudTrail Trail](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20212132.png)
 
 <!-- Show the active CloudTrail trail and its management-event configuration. -->
 
 ### 12. Amazon SNS Topic and Subscription
 
-![SNS Topic and Subscription](screenshots/12-sns-topic-subscription.png)
+![SNS Topic and Subscription](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20215245.png)
 
 <!-- Show the Amazon SNS topic and confirmed subscription. Redact the subscriber's email address. -->
 
 ### 13. Amazon EventBridge Rule
 
-![EventBridge Rule](screenshots/13-eventbridge-rule.png)
+![EventBridge Rule](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20221942.png)
 
 <!-- Show the rule status, event pattern, and Amazon SNS target. -->
 
 ### 14. Email Security Alert
 
-![Email Security Alert](screenshots/14-email-alert.png)
+![Email Security Alert](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20222714.png)
 
 <!-- Show the received Amazon S3 create or delete alert. Redact email addresses, account numbers, and unnecessary metadata. -->
 
 ### 15. AWS KMS Customer-Managed Key
 
-![KMS Customer Managed Key](screenshots/15-kms-key.png)
+![KMS Customer Managed Key](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20224759.png)
 
 <!-- Show the enabled customer-managed key, alias, key type, and rotation status. Redact the complete key identifier if publishing publicly. -->
 
 ### 16. Amazon DynamoDB Encryption
 
-![DynamoDB KMS Encryption](screenshots/16-dynamodb-kms-encryption.png)
+![DynamoDB KMS Encryption](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20232202.png)
 
 <!-- Show the Samsecops-PII-DB encryption configuration confirming that the customer-managed AWS KMS key is linked. -->
 
 ### 17. Amazon DynamoDB and AWS KMS Access Policy
 
-![DynamoDB and KMS Policy](screenshots/17-dynamodb-kms-policy.png)
+![DynamoDB and KMS Policy](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20225016.png)
 
 <!-- Show the sanitized Identity and Access Management policy used for Amazon DynamoDB and AWS KMS access. -->
 
 ### 18. Knowledge Base Source Documents
 
-![Knowledge Base Documents](screenshots/18-knowledge-base-documents.png)
+![Knowledge Base Documents](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-26%20005728.png)
 
 <!-- Show the two approved lab articles in the Amazon S3 knowledge base data-source bucket. -->
 
 ### 19. Amazon Bedrock Knowledge Base
 
-![Amazon Bedrock Knowledge Base](screenshots/19-bedrock-knowledge-base.png)
+![Amazon Bedrock Knowledge Base](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20124320.png)
 
 <!-- Show the knowledge base configuration summary and successful data-source synchronization. -->
 
 ### 20. Amazon Bedrock Test Console
 
-![Amazon Bedrock Test Console](screenshots/20-bedrock-test-console.png)
+![Amazon Bedrock Test Console](https://github.com/SamSecOps/AWS-Deployment/blob/main/screenshots/Screenshot%202026-07-25%20130845.png)
 
 <!-- Show a successful question-and-answer test with source citations. Do not expose private document content beyond what is necessary. -->
 
